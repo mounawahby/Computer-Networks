@@ -11,7 +11,7 @@ This is a simplified	version	of the	ARP	protocol.
 ### START
 (assuming your OS is Linux)
 
-⋅⋅* Get VirtualBox:
+1. Get VirtualBox:
 https://www.virtualbox.org/wiki/Linux_Downloads
 
 
