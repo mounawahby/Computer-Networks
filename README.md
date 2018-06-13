@@ -28,6 +28,6 @@ Select your VM, go to settings, then network, then advanced, finally port forwar
 Now add a rule(the green +) with TCP host port 2222 and guest port 22.
 Save and close the window.
 
-5. SSH into the VM(open 4 windows since our subnet is made of 4 nodes):
+5. SSH into the VM(open 4 windows since our subnet is made of 4 nodes). Also you will be asked for the password:
 ` ssh -Y -l <user name> -p 2222 localhost`
 
