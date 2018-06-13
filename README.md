@@ -4,11 +4,11 @@ Nodes	 on	 the	 same	 subnet	 communicate	 using	 MAC	 addresses	 and	 the	 Addr
 Protocol aka ARP,	 is	 used	 to	 resolve	 IP	 addresses	 into	 MAC	 addresses.	 When	 a host	 A	 needs	 to	
 communicate	to	host	B	on	the	same	subnet,	host	A	sends	packets	using	host	B’s	MAC	address.	
 
-### WHAT
+### What
 
 This is a simplified	version	of the	ARP	protocol.
 
-### START
+### Start
 (assuming your OS is Linux)
 
 1. Get VirtualBox:
@@ -32,3 +32,13 @@ Save and close the window.
 
 `ssh -Y -l <user name> -p 2222 localhost`
 
+### Testing
+
+1. In each window start node A, B, C and D. Please note that each node's MAC address, listening port and IP address were hardcoded.
+2. To print the ARP table(which will be empty in the beginning): `arp -a`
+3. To fill node A's ARP table:
+`telnet	localhost	8000`
+`pingmac 10.0.100.3`
+`pingmac 10.0.100.4`
+`pingmac 10.0.100.5`
+4. To check if the table is now filled, type again: `arp -a`
