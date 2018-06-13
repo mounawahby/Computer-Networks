@@ -87,19 +87,7 @@ def getMACfromIP(ip):
         elif ip=='10.0.100.5':
              mac=Arptable[0][2]
              print mac   
-       # for info in range(0,len(ArpTable)):
-
-           # print ArpTable[info]
-
-        #    if len(ArpTable[info]) > 0:
-
-         #        print ArpTable[info][1]
-
-          #       if ArpTable[info][1] == ip:
-
-           #          mac = ArpTable[info][2]
-                      # print mac
-
+     
         return mac
 
 
