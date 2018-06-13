@@ -1,4 +1,4 @@
-# Computer-Networks - ARP
+# Address	 Resolution	Protocol
 
 Nodes	 on	 the	 same	 subnet	 communicate	 using	 MAC	 addresses	 and	 the	 Address	 Resolution	
 Protocol aka ARP,	 is	 used	 to	 resolve	 IP	 addresses	 into	 MAC	 addresses.	 When	 a host	 A	 needs	 to	
