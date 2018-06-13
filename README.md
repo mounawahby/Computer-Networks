@@ -14,6 +14,8 @@ This is a simplified	version	of the	ARP	protocol.
 1. Get VirtualBox:
 https://www.virtualbox.org/wiki/Linux_Downloads
 
+2. Get Mininet VM image:
+https://github.com/mininet/mininet/wiki/Mininet-VM-Images
 
 
 
